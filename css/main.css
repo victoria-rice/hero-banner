@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.banner-body h2 {
+  font-size: 4rem;
+}
+
+.banner-body p {
+  font-size: 2rem;
+}
