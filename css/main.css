@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.4;
 }
 
@@ -21,10 +21,11 @@ body {
 .banner-body {
   max-width: 50em;
   position: absolute;
-  bottom: 0px;
+  bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  min-width: 45rem;
+  min-width: 40rem;
+  padding-left: 1rem;
 }
 
 .banner-body h2 {
@@ -36,9 +37,11 @@ body {
 
 .banner-body p {
   font-size: 2rem;
+  font-style: italic;
+  margin-top: 1rem;
 }
 
-img {
+.img-flex {
   display: block;
   width: 100%;
 }
