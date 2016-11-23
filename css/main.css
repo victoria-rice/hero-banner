@@ -1,24 +1,44 @@
 html {
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
+  line-height: 1.4;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 .banner {
   max-height: 500px;
+  position: relative;
+  overflow: hidden;
 }
 
 .banner-body {
   max-width: 50em;
+  position: absolute;
+  bottom: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  min-width: 45rem;
 }
 
 .banner-body h2 {
+  background-color: rgba(0, 0, 0, .5);
   font-size: 4rem;
+  color: #fff;
+  display: inline;
 }
 
 .banner-body p {
   font-size: 2rem;
+}
+
+img {
+  display: block;
+  width: 100%;
 }
