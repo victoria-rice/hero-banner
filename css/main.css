@@ -7,6 +7,14 @@ html {
   box-sizing: inherit;
 }
 
+.banner {
+  max-height: 500px;
+}
+
+.banner-body {
+  max-width: 50em;
+}
+
 .banner-body h2 {
   font-size: 4rem;
 }
